@@ -9,10 +9,13 @@ def get_valid_input(prompt, valid_options):
     Returns:
         str: The valid input provided by the user.
     """
+    # Infinite loop to continuously prompt the user for input until valid input is received.
     while True:
+        # Takes user input, removes any surrounding spaces, and converts it to uppercase.
         user_input = input(prompt).strip().upper()
+        # Checks if the user input is within the set of valid options.
         if user_input in valid_options:
+            # If valid, return the input and exit the loop.
             return user_input
+        # If invalid input is detected, it prints a message and re-prompts the user.
         print("Invalid input, please enter a valid option.")
-
-# This section handles the invalid input logic. So if a particular input is not recognised by the program, it doesn't place any penalty on the user.
