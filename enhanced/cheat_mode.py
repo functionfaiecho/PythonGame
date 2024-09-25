@@ -2,12 +2,6 @@ def dfs_collect_answers(location, locations, questions, visited):
     """
     DFS traversal to visit all locations and collect/display correct answers
     for each location's quiz question.
-    
-    Args:
-        location (str): The starting location for DFS.
-        locations (dict): The graph of locations and their travel costs.
-        questions (dict): The questions and answers for each location.
-        visited (set): A set to keep track of visited locations.
     """
     if location in visited:
         return
