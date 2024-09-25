@@ -21,13 +21,13 @@ This Choose Your Own Adventure game (with a twist) was created as part of my IT1
 
 ```https://github.com/functionfaiecho/PythonGame.git```
 
-    -  the [GitHub CLI](https://cli.github.com/):
+    - the [GitHub CLI](https://cli.github.com/):
 
 ```gh repo clone functionfaiecho/PythonGame```
 
 3. In the root folder, run:
 
-```docker-compose build```. You now have both the original and enhanced projects 
+```docker-compose build```. You now have both the original and enhanced projects built.
 
 ### Original Project
 
