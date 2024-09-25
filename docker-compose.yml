@@ -1,14 +1,14 @@
 services:
   original:
-    build: ./original  # Specify the directory where the Dockerfile for the original game is located.
-    container_name: original_game  # Name this container "original_game" for easier identification.
-    image: original_game  # Assign "original_game" as the image name for the original game service.
-    stdin_open: true  # Keep the container's STDIN open to allow interaction if needed.
-    tty: true  # Enable pseudo-TTY to allow interactive input within the container.
+    build: ./original  # Directory for original game Dockerfile.
+    container_name: original_game  # Name container for easier identification.
+    image: original_game  # Assign image name for original game.
+    stdin_open: true  # Keep STDIN open for interaction.
+    tty: true  # Enable interactive input.
 
   enhanced:
-    build: ./enhanced  # Specify the directory where the Dockerfile for the enhanced game is located.
-    container_name: enhanced_game  # Name this container "enhanced_game" for easier identification.
-    image: enhanced_game  # Assign "enhanced_game" as the image name for the enhanced game service.
-    stdin_open: true  # Keep the container's STDIN open to allow interaction if needed.
-    tty: true  # Enable pseudo-TTY to allow interactive input within the container.
+    build: ./enhanced  # Directory for enhanced game Dockerfile.
+    container_name: enhanced_game  # Name container for easier identification.
+    image: enhanced_game  # Assign image name for enhanced game.
+    stdin_open: true  # Keep STDIN open for interaction.
+    tty: true  # Enable interactive input.
