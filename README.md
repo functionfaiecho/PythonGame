@@ -6,7 +6,7 @@
 - [How To Run](#how-to-run)
     - [Original Project](#original-project)
     - [Enhanced Project](#enhanced-project)
-  - [Disclaimer](#disclaimer)
+- [Disclaimer](#disclaimer)
 
 ## About The Project
 
