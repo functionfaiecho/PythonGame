@@ -6,6 +6,7 @@
 - [How To Run](#how-to-run)
     - [Original Project](#original-project)
     - [Enhanced Project](#enhanced-project)
+  - [Disclaimer](#disclaimer)
 
 ## About The Project
 
@@ -58,3 +59,7 @@ To run the enhanced version of this project, run the following:
 docker-compose run enhanced
 ```
 There are a number of enhancements that are present in this version of the project. First, I added a cheat mode with Depth-First Search (DFS) that allows the player to explore all possible routes and see the correct answers to the quiz questions. In addition, I incorporated Dijkstra's Algorithm to find the cheapest path to the final destination. This feature introduced a unique way for the player to interact with the game. 
+
+## Disclaimer
+
+This game was created solely for academic purposes. Any resemblance to real-life persons or state of affairs is purely coincidental. This game will be deleted on completion of the class it is for.
